@@ -11,7 +11,8 @@ public class Gestion {
     red = new AVLArbol<Estacion>();
   }
 
-  public void agregarEstacion(Estacion estacion){
+  public void agregarEstacion(int id){
+    Estacion estacion = new Estacion(id);
     red.insertar(estacion);
   }
 
