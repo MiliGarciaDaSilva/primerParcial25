@@ -1,7 +1,6 @@
 package ucu.edu.aed.tda;
 
 import java.util.function.Consumer;
-
 /**
  * Implementación de un árbol binario auto-balanceado (AVL) sobre la interfaz {@link TDAArbolBinario}.
  *
